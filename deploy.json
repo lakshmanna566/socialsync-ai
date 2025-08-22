@@ -1,0 +1,4 @@
+{
+  "buildCommand": "esbuild index.tsx --bundle --outfile=dist/bundle.js --jsx=automatic --define:process.env.NODE_ENV='\"production\"'",
+  "serveCommand": "serve . -p 8080"
+}
